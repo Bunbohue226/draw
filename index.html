@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="toolbar">
+    <button id="erase">Tẩy</button>
+    <input type="color" id="color" value="#000000">
+    <input type="range" id="brushSize" min="1" max="200" value="5">
+    <button id="download">Tải ảnh về</button>
+  </div>
+  <canvas id="drawingCanvas"></canvas>
+
+  <div id="colorDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
